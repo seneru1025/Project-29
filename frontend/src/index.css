@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.426);
+  padding: 60px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #2563eb;
+  font-size: 30px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-container input,
+.input-container textarea {
+  width: 80%; 
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+.button-group {
+  display: flex;
+  gap: 10px; 
+}
+
+
+
+button.post-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #000000;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+/* Edit Button */
+button.edit-btn {
+  background-color: #facc15; /* Yellow */
+  color: black;
+}
+
+/* Delete Button */
+button.delete-btn {
+  background-color: #ef4444; /* Red */
+  color: white;
+}
+
+/* Post List */
+.post-container {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+      width: 90%;
+  }
+}
